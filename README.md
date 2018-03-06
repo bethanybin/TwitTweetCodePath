@@ -8,10 +8,10 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
-- [ ] User can sign in using OAuth login flow. (1pt)
-- [ ] User can Logout. (1pt)
-- [ ] Create Data Models for User and Tweet. (1pt)
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User can sign in using OAuth login flow. (1pt)
+- [x] User can Logout. (1pt)
+- [x] Create Data Models for User and Tweet. (1pt)
 - [ ] User can view last 20 tweets from their home timeline with the user profile picture, username, tweet text, and timestamp. (2pts)
 - [ ] User can pull to refresh. (1pt)
 - [ ] User can tap the retweet and favorite buttons in a tweet cell to retweet and/or favorite a tweet. (2pts)
@@ -54,7 +54,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Bethany Bin]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
