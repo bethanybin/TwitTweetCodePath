@@ -16,6 +16,8 @@ class TimelineViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let refreshControl = UIRefreshControl()
+
         
         tableView.dataSource = self
         tableView.delegate = self

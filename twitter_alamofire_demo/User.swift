@@ -11,9 +11,21 @@ import Foundation
 class User {
     
     var name: String
+    static var current: User?
+    var screenName: String
+    var createDate: String
+    var posterURL: URL
+    var posterPath: String
+    var dictionary: [String: Any]
     
     init(dictionary: [String: Any]) {
+        self.dictionary = dictionary
         name = dictionary["name"] as! String
+        screenName = dictionary["screen_name"] as! String
+        createDate = dictionary["created_at"] as! String
+        posterPath = dictionary["profile_image_url_https"] as! String
+        posterURL = URL(string: posterPath)!
 
     }
+    
 }

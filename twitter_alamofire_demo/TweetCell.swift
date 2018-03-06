@@ -7,14 +7,30 @@
 //
 
 import UIKit
+//import ActiveLabel
 
 class TweetCell: UITableViewCell {
     
     @IBOutlet weak var tweetTextLabel: UILabel!
+    @IBOutlet weak var profilePicture: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
     
     var tweet: Tweet! {
         didSet {
             tweetTextLabel.text = tweet.text
+        }
+    }
+    
+    var name: Tweet!{
+        didSet{
+            nameLabel.text = name.user.screenName
+        }
+    }
+    
+    var username: Tweet!{
+        didSet{
+            usernameLabel.text = username.user.name
         }
     }
     
